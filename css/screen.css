@@ -1,0 +1,27 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+/* COLOR PALETTE */
+
+/************************/
+/* For IE to render HTML5 elements properly */
+header, footer, article, section, nav, menu { display: block;}
+/*********/
+
+body {
+	color: #222;
+	text-shadow: #fff 0px 1px 1px;
+	font-family: sans-serif;
+	font-size: 1em;
+	line-height: 1.5;
+    vertical-align: baseline;
+}
+
+html>body {
+	font-size: 16px;
+}
+
+h1 {
+	font-family: 'BebasNeueRegular', sans-serif;
+	font-size: 3em;
+}
