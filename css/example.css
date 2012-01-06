@@ -1,0 +1,21 @@
+@import url("reset.css");
+
+/* This is on top of all our example pages */
+header.example-navbar {
+  background: #111;
+  height: 30px;
+  color: #EEE;
+  text-shadow: none;
+}
+
+header.example-navbar a {
+  display: inline-block;
+  color: #EEE;
+  text-decoration: none;
+  font: bold 13px/30px sans-serif;
+  padding: 0 10px;
+}
+
+header.example-navbar a:hover {
+  background: #444;
+}
